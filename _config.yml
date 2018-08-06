@@ -5,8 +5,8 @@
 
 # Site
 title: Captain Teem0
-subtitle: On DUTY! 
-description: Blog about totally ignorable
+subtitle: 티--모
+description: Blog about totally ignorable stuff
 author: Captain Teem0 
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -90,7 +90,7 @@ rss:
 since: 2018
 
 # icon between year and author @Footer
-authoricon: heart
+authoricon: star
 
 # Footer `powered-by` and `theme-info` copyright
 copyright: false
