@@ -76,7 +76,7 @@ plugins:
 # ---------------------------------------------------------------
 
 # Put your favicon.ico into `assets/` directory.
-favicon: /assets/favicon.ico
+favicon: ./assets/favicon.ico
 
 # Set default keywords (Use a comma to separate)
 keywords: "teemo, teem0, IT, security"
@@ -381,7 +381,7 @@ han: false
 # Disqus
 disqus:
   enable: true
-  shortname:
+  shortname: 'admin'
   count: true
   # hide comments (visitors need to click to load the comments)
   # count need to be false when hide is true
