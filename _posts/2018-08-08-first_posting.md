@@ -24,6 +24,6 @@ date: 2018-08-08
 - 아니 
    - depth도 자동으로? 
 
-![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg =100x50)
+![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg){:height="100px" width="50px"}
 
 
