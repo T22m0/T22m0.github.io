@@ -21,9 +21,9 @@ date: 2018-08-08
 - 이것은 
 - unordered list
 - 자동으로 되네용
- - 아니 
+- 아니 
    - depth도 자동으로? 
 
-![My Teemo Image caption](../assets/images/2018-08-08-first_posting/1.jpg "Captain Teem0")
+![My Teemo Image caption](2018-08-08-first_posting/1.jpg "Captain Teem0")
 
 
