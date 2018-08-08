@@ -6,7 +6,7 @@
 # Site
 title: Captain Teem0
 subtitle: 티--모
-description: Blog about totally ignorable stuff
+description: LUV Teem0
 author: Captain Teem0 
 # Support language: de, en, fr-FR, id, ja, ko, pt-BR, pt, ru, zh-Hans, zh-hk, zh-tw
 language: en
@@ -223,7 +223,7 @@ font:
 #   Key is the name of the item and value is the name of FontAwesome icon. Key is case-senstive.
 #   When an globe mask icon presenting up means that the item has no mapping icon.
 social_icons:
-  enable: true
+  enable: false
   # Icon Mappings.
   # KeyMapsToSocialItemKey: NameOfTheIconFromFontAwesome
   #GitHub: github
@@ -674,7 +674,7 @@ vendors:
   # pace_css: //cdn.bootcss.com/pace/1.0.2/themes/blue/pace-theme-flash.min.css
   pace:
   pace_css:
-
+          
   # Internal version: 1.0.0
   # https://github.com/hustcc/canvas-nest.js
   canvas_nest:
