@@ -24,6 +24,6 @@ date: 2018-08-08
 - 아니 
    - depth도 자동으로? 
 
-![My Teemo Image caption](https://github.com/T22m0/T22m0.github.io/blob/master/_posts/2018-08-08-first_posting/1.jpg)
+![My Teemo Image caption](http://www.wallpapereast.com/static/images/Wolf-White-Wallpaper-HD.jpg)
 
 
