@@ -24,4 +24,12 @@ date: 2018-08-08
 - 아니 
    - depth도 자동으로? 
 
+![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg){:height="400px" width="200px"}
+> set image size to `px`
+![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg){:height="90%" width="90%"}
+> ~~set image size to %~~
+![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg){:height="50em" width="30ex"}
+> * set image size to em
 ![My Teemo Image caption](/assets/images/2018-08-08-first_posting/1.jpg){:height="40px" width="20px"}
+> - set image size to px again
+---
