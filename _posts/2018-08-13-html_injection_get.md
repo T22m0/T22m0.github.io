@@ -46,14 +46,10 @@ Medium 레벨에서는 입력 값에 대해서 HTML관련 Character가 있으면
 
 그렇다면 어떻게 해야 이 Sanitizing기능을 우회할 수 있을까?
 
-에초에 Sanitizing에 걸리지 않는 문자들로 HTML TAG를 Encoding하게된다면? 예를들어 원래는 `<`를 입력해야하지만 `%3C`로 변환하여 입력한다면? `%3C`는 HTML Character가 포함되어있지 않기 때문에 그 문자 그대로 출력 되게 된다. 
+에초에 Sanitizing에 걸리지 않는 문자들로 HTML TAG를 Encoding하게된다면? 예를들어 원래는 `<`를 입력해야하지만 `%3C`로 변환하여 입력한다면? `%3C`는 HTML Character가 포함되어있지 않기 때문에 escaping 되지 않은 채로 출력 되게 된다.
 
 
 ![image6](/assets/images/2018-08-13-html_injection_get/6.png)
-위 사진은 *Fiddler*라는 툴을 이용하여 `<h1>hello</h1>`를 Encoding 한 사진이다. 위의 결과 값을 복사하여 `First name`칸에 복사를 하게되면 
-
-
-아래 사진과 같이 sanitizing을 우회하여 HTML TAG를 적용 시켰음을 확인할 수 있다. 
+위 사진은 *Fiddler*라는 툴을 이용하여 `<h1>hello</h1>`를 Encoding 한 사진이다. 위의 결과 값을 복사하여 `First name`칸에 복사를 하게되면 아래 사진과 같이 sanitizing을 우회하여 HTML TAG를 적용 시켰음을 확인할 수 있다. 
 
 ![image7](/assets/images/2018-08-13-html_injection_get/7.png)
-
