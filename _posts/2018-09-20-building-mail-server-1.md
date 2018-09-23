@@ -162,6 +162,11 @@ usermod -s /usr/sbin/nologin linux
 passwd linux
 ```
 이 4문장만 입력하시면 나중에 실제로 사용될 이메일 계정이 만들어지는 겁니다. 
+```bash
+vim /etc/passwd
+vim /etc/group
+```
+계정을 만든 뒤에 위의 파일을 열어서 실제로 계정이 추가됐는지 확인할 수 있습니다. 
 
 마지막으로 
 
