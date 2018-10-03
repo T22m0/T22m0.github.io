@@ -99,7 +99,7 @@ sudo su
 `root`계정으로 접근한 뒤, 아래의 명령어를 입력하여 시스템을 최신버전으로 업데이트 해줍니다. 
 ```bash
 apt update; apt upgrade -y
-``` 
+```
 
 
 ![9](/assets/images/2018-09-20-building-mail-server-1/9.png)
@@ -172,10 +172,10 @@ vim /etc/group
 ![16](/assets/images/2018-09-20-building-mail-server-1/16.png)
 마지막으로 
 ```bash
-chmod 777 /home
+chown :mail /home
+chmod 775 /home
 ```
-이 `/home`에 777을 주는 이유는 postfix에서 Maildir형식으로 메일 디렉토리를 구성할 것이기 때문입니다.(즉 이메일 계정이 생성될 때 마다 `/home/[user]/Maildir`이 생성됩니다)
-(시스템 어떠한 폴더에도 777권한은 위험하지만, 어차피 가벼운 메일서버로만 쓸꺼니까 괜찮겠죠...?혹시 다른 옵션 아시는분...알려주세요ㅠㅠ)
+이 `/home`의 그룹을 `mail`로 변경하고 775권한을 주는 이유는 postfix에서 Maildir형식으로 메일 디렉토리를 구성할 것이기 때문입니다.(즉 이메일 계정이 생성될 때 마다 `/home/[user]/Maildir`이 생성됩니다)
 
 모든 명령을 마친 이후에
 ![16](/assets/images/2018-09-20-building-mail-server-1/16.png)
